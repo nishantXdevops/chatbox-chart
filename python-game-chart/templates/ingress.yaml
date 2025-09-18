@@ -1,0 +1,7 @@
+{{- define "python-game.name" -}}
+{{ .Chart.Name }}
+{{- end -}}
+
+{{- define "python-game.fullname" -}}
+{{ .Release.Name }}-{{ .Chart.Name }}
+{{- end -}}
